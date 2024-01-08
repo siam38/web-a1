@@ -1,0 +1,69 @@
+body {
+  margin: 40px 75px 0;
+}
+
+
+/*Header css */
+.main-h {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('../images/Banner.png') center/cover no-repeat; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 5px;
+  max-width: 100%;
+  height: 70vh;
+}
+
+.header {
+  display: flex;
+  width: 548px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.title-s {
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  font: 400 32px Merriweather, sans-serif;
+  margin-bottom: 1px;
+  font-size: 20px;
+}
+
+.title-b {
+  color: #fff;
+  text-align: center;
+  font: 900 48px/58px Merriweather, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 65px;
+  line-height: 95px;
+  margin-top:10px;
+}
+
+/*Discount div */
+.discount-h1 {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dis-p {
+  color: #f00;
+  text-align: center;
+  align-self: center;
+  font-size: 75px;
+  margin-top: 10px;
+  white-space: nowrap;
+  font: 500 24px Inter, sans-serif;
+  color: #F00;
+
+}
+
