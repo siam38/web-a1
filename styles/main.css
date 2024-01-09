@@ -76,11 +76,12 @@ body {
 
 /* Party */
 .party {
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png") center/cover no-repeat;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
   border-radius: 16px;
   margin-top: 100px;
   height: 600px;
   display: flex;
+  background-size: cover;
 }
 
 .party-content {
@@ -162,54 +163,46 @@ body {
 }
 
 /* Portfolio */
-.portfolio {
-  margin-top: 110px;
-  height: 482px;
-  border-radius: 16px;
+.pf h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.portfolio-content {
-  text-align: left;
+.pf h2 {
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 16px 0px 22px 0px;
 }
 
-.p-title {
-  color: #070211;
-  font-size: 48px;
-  font-family: Merriweather;
-  font-weight: 900;
-  text-transform: capitalize;
-  word-wrap: break-word;
-  margin: 0px;
-  padding: 16px 0px 22px 0px;
+.pf p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
 }
 
-.p-sub {
-  color: #FF0000;
-  font-size: 24px;
-  font-family: Inter;
-  font-weight: 500;
-  word-wrap: break-word;
-  margin: 0px;
+.pf .imagesP {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.p-details {
-  color: rgba(7, 2, 17, 0.60);
-  font-size: 20px;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: 32px;
-  word-wrap: break-word;
-  margin: 0px;
-  padding: 0px 0px 48px 0px;
+.pf .imagesP img {
+    transition: transform 0.3s ease-in-out;
 }
 
-.image-first-row, .image-second-row {
-  display: flex;
-  width: 100%;
-  height: 450px;
-  padding-bottom: 25px;
-}
-
-.pimg {
-  padding-right: 20px;
+.pf .imagesP img:hover {
+    transform: scale(1.2);
 }
